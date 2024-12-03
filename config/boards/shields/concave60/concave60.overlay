@@ -37,6 +37,7 @@
 	chosen {
 		zmk,kscan = &kscan;
 		zmk,matrix_transform = &transform;
+		zephyr,display = &oled
 	};
 	
 	kscan: kscan {
