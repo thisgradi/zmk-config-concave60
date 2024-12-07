@@ -11,7 +11,7 @@
 //	Col 5		D0	 P0.08	PD2	L1		 L2	GND	 				Speaker -
 //							GND				RST					
 //							GND				VCC	 P0.13+				
-//	OLED SDA	D2	 P0.17	PD1  Nice!Nano	PF4	 P0.31	 D21	Row 4
+//	OLED SDA	D2	 P0.17	PD1  Nice!Nano	PF4	 P0.31	 D21
 //	OLED SCL	D3	 P0.20	PD0  v2 clone	PF5	 P0.29	 D20	Col 10
 //	Col 3		D4	 P0.22	PD4  (top view)	PF6	 P0.02	 D19	Col 9
 //	Col 2		D5	 P0.24	PC6				PF7	 P1.15	 D18	Col 8
@@ -22,9 +22,7 @@
 //								| | |
 //					 P1.01	____| | |	&gpio1 1	Row 2
 //					 P1.02	______| |	&gpio1 2	Col 4
-//					 P1.07	________|	&gpio1 7
-//			
-//
+//					 P1.07	________|	&gpio1 7	Row 4
 //	L1 (LED1)		 P0.15
 //	L2 (LED2)	     charging
 //	SET HIGH TO OFF  P0.13+
@@ -50,7 +48,7 @@
 					<&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
 					<&gpio1		 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
 					<&pro_micro  1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-					<&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+					<&gpio1      7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 		
 		col-gpios = <&pro_micro  7 GPIO_ACTIVE_HIGH>,
 					<&pro_micro  6 GPIO_ACTIVE_HIGH>,
