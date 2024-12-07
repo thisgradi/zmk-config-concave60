@@ -64,7 +64,7 @@
 		
 		/* GREEN
 		 * ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓
-		 * ┃   RST   ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃  CALC   ┃ PRTSCR  ┃ Insert  ┃
+		 * ┃  BOOTL  ┃   RST   ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃  CALC   ┃ PRTSCR  ┃ Insert  ┃
 		 * ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫
 		 * ┃   Esc   ┃         ┃         ┃    Up   ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃
 		 * ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫
@@ -78,7 +78,7 @@
 		
 		green_layer {
 			bindings = <
-				&bootloader		&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&kp K_CALC		&kp PSCRN		&kp INSERT
+				&bootloader		&sys_reset		&trans			&trans			&trans			&trans			&trans			&trans			&trans			&kp K_CALC		&kp PSCRN		&kp INSERT
 				&kp ESCAPE		&trans			&trans			&kp UP			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans
 				&trans			&kp HOME		&kp LEFT		&kp DOWN		&kp RIGHT		&kp END			&trans			&kp LBKT		&kp LPAR		&kp RPAR		&kp RBKT		&trans
 				&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans
