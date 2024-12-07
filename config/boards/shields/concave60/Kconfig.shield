@@ -1,2 +1,2 @@
 config SHIELD_CONCAVE60
-	def_bool $(shields_list_contains, concave60)
+	def_bool $(shields_list_contains,concave60)
