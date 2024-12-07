@@ -17,8 +17,8 @@
 //	Col 2		D5	 P0.24	PC6				PF7	 P1.15	 D18	Col 8
 //	Col 1		D6	 P1.00	PD7				PB1	 P1.13	 D15	Row 1
 //	Col 0		D7	 P0.11	PE6				PB3	 P1.11	 D14	Col 7
-//	Col 11		D8	 P1.04	PB4	O O O		PB2	 P0.10	 D16	Col 6
-//	Row 0		D9	 P1.06	PB5	| | |		PB6	 P0.09	 D10	Speaker +
+//	Col 11		D8	 P1.04	PB4	O O O		PB2	 P0.10	 D16	
+//	Row 0		D9	 P1.06	PB5	| | |		PB6	 P0.09	 D10	Col 6
 //								| | |
 //					 P1.01	____| | |	&gpio1 1	Row 2
 //					 P1.02	______| |	&gpio1 2	Col 4
@@ -58,7 +58,7 @@
 					<&pro_micro  4 GPIO_ACTIVE_HIGH>,
 					<&gpio1      2 GPIO_ACTIVE_HIGH>,
 					<&pro_micro  0 GPIO_ACTIVE_HIGH>,
-					<&pro_micro 16 GPIO_ACTIVE_HIGH>,
+					<&pro_micro 10 GPIO_ACTIVE_HIGH>,
 					<&pro_micro 14 GPIO_ACTIVE_HIGH>,
 					<&pro_micro 18 GPIO_ACTIVE_HIGH>,
 					<&pro_micro 19 GPIO_ACTIVE_HIGH>,
