@@ -3,6 +3,9 @@ if SHIELD_CONCAVE60
 config ZMK_KEYBOARD_NAME
 	default "concave60"
 
+config ZMK_SLEEP
+	default y
+
 if ZMK_DISPLAY
 
 config ZMK_DISPLAY
